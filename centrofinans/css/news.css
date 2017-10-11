@@ -1,0 +1,20 @@
+body,
+body * {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border: 0;
+	width: 100%;
+	border-collapse: collapse;
+	color: red;
+}
+td {
+	padding: 5px 10px;
+}
+.logo {
+	outline:1px solid red;
+	width: 111px;
+	height: 222px;
+}
