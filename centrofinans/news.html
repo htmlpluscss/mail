@@ -9,14 +9,151 @@
 
 <body>
 
-	<table>
-		<tr>
-			<td>
-				тестовая рассылка
-				<img src="img/captcha.png" alt="" class="logo">
-			</td>
-		</tr>
-	</table>
+	<style data-embed>
+
+		@font-face {
+			font-family: 'ProximaNova-Regular';
+			src: url('https://centrofinans.ru/bitrix/templates/centrofinans/fonts/31E3D0_2_0.woff2') format('woff2'),
+				 url('https://centrofinans.ru/bitrix/templates/centrofinans/fonts/31E3D0_2_0.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'ProximaNova-Regular';
+			src: url('https://centrofinans.ru/bitrix/templates/centrofinans/fonts/31E3D0_3_0.woff2') format('woff2'),
+				 url('https://centrofinans.ru/bitrix/templates/centrofinans/fonts/31E3D0_3_0.woff') format('woff');
+			font-weight: 600;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'ProximaNova-Regular';
+			src: url('https://centrofinans.ru/bitrix/templates/centrofinans/fonts/31E3D0_1_0.woff2') format('woff2'),
+				 url('https://centrofinans.ru/bitrix/templates/centrofinans/fonts/31E3D0_1_0.woff') format('woff');
+			font-weight: 300;
+			font-style: normal;
+		}
+
+
+		.all-news__link:hover,
+		.news-article:hover .news-article__text {
+			text-decoration: underline !important;
+		}
+
+		.footer p a:hover {
+			text-decoration: none !important;
+		}
+
+
+		@media (max-width:600px) {
+
+			.main {
+				margin: 0;
+			}
+			.main__inner {
+				padding: 20px 10px;
+			}
+
+		}
+
+	</style>
+
+	<div class="main">
+
+		<div class="main__inner">
+
+			<table class="header">
+				<tr>
+					<td>
+						<a href="https://centrofinans.ru/"><img class="header__logo" src="img/logo.png" srcset="img/logo@2x.png 2x" alt=""></a>
+					</td>
+					<tr>
+						<td>
+							<hr class="header__sep">
+						</td>
+					</tr>
+				</tr>
+			</table>
+
+			<div class="text-content">
+
+				<h1>Добрый день, Алексей!</h1>
+
+				<p>У нас есть для Вас актуальная подборка самых свежих новостей в области микрофинансирования.</p>
+
+			</div>
+
+			<div class="list-news">
+
+				<a class="news-article" href="https://centrofinans.ru/">
+					<img src="img/logo.png" srcset="img/logo@2x.png 2x" alt="" class="news-article__img">
+					<div class="news-article__date">12.03.2016</div>
+					<div class="news-article__text">«Центрофинанс» третий год подряд входит в Top-100 лучших работодателей России</div>
+				</a>
+
+				<a class="news-article" href="https://centrofinans.ru/">
+					<img src="img/logo.png" srcset="img/logo@2x.png 2x" alt="" class="news-article__img">
+					<div class="news-article__date">08.03.2016</div>
+					<div class="news-article__text">Мы снижаем требования по минимальному возрасту заемщика</div>
+				</a>
+
+				<a class="news-article" href="https://centrofinans.ru/">
+					<img src="img/logo.png" srcset="img/logo@2x.png 2x" alt="" class="news-article__img">
+					<div class="news-article__date">12.03.2016</div>
+					<div class="news-article__text">«Центрофинанс» третий год подряд входит в Top-100 лучших работодателей России</div>
+				</a>
+
+				<a class="news-article" href="https://centrofinans.ru/">
+					<img src="img/logo.png" srcset="img/logo@2x.png 2x" alt="" class="news-article__img">
+					<div class="news-article__date">12.03.2016</div>
+					<div class="news-article__text">Мы снижаем требования по минимальному возрасту заемщика</div>
+				</a>
+
+			</div>
+
+			<table class="all-news">
+				<tr>
+					<td>
+						<hr class="all-news__sep">
+					</td>
+					<td width="150">
+						<a class="all-news__link" href="https://centrofinans.ru/novosti/">
+							<img class="all-news__ico" src="img/logo.png" srcset="img/logo@2x.png 2x" alt="">
+							все новости
+						</a>
+					</td>
+				</tr>
+			</table>
+
+			<table class="footer">
+				<tr>
+					<td class="footer__social">
+
+						<a href="https://vk.com/centrofinans">
+							<img src="img/logo.png" srcset="img/logo@2x.png 2x" alt="">
+						</a>
+						<a href="https://ok.ru/centrofinans">
+							<img src="img/logo.png" srcset="img/logo@2x.png 2x" alt="">
+						</a>
+						<a href="https://www.facebook.com/centrofinans/">
+							<img src="img/logo.png" srcset="img/logo@2x.png 2x" alt="">
+						</a>
+						<a href="https://twitter.com/centrofinans">
+							<img src="img/logo.png" srcset="img/logo@2x.png 2x" alt="">
+						</a>
+
+					</td>
+					<tr>
+						<td>
+							<p>© 2013–2016, ООО МФО «Центрофинанс Групп». <br>Регистрационный номер записи в государственном реестре № 651303111004012.</p>
+							<p>Если Вы не хотите получать письма - <a href="">отписаться</a></p>
+						</td>
+					</tr>
+				</tr>
+			</table>
+
+		</div>
+
+	</div>
 
 </body>
 </html>
