@@ -340,14 +340,9 @@ hr {
 	max-width: 520px;
 	margin: 0 auto;
 }
-.block-steps__table {
-	width: 100%;
-}
-.block-steps td {
-	vertical-align: top;
-}
-.block-steps__td {
-	width: 30%;
+.block-steps__item {
+	width: 170px;
+	display: inline-block;
 }
 .block-steps__head {
 	font-family: "ProximaNova", "ProximaNova-Regular", sans-serif;
